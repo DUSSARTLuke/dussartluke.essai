@@ -13,7 +13,8 @@ and open the template in the editor.
     <meta name="description" content="Portfolio de DUSSART Luke - BTS SIO SLAM">
     <meta name="author" content="DUSSART Luke">
     <link rel="icon" href="favicon.ico"> 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link href="../css/cv.css" rel="stylesheet" type="text/css"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -32,12 +33,12 @@ and open the template in the editor.
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active nav-item">
-              <a href="index.html" class="nav-link">
+              <a href="../index.html" class="nav-link">
                 <span class="fa fa-home"></span> Accueil
               </a>
             </li>
             <li class="nav-item">
-              <a href="pages/cv.html" class="nav-link">
+              <a href="cv.html" class="nav-link">
                 <span class="fa fa-id-badge"></span> CV
               </a>
             </li> 
@@ -119,16 +120,21 @@ and open the template in the editor.
         </div>
       </div>
     </nav>
-   
+
     <!--Pied de page-->
     <div class="jumbotron">
-      <h1>Bienvenue sur mon Portfolio</h1>
-    <img src="images/AmeliaPilou.jpg" alt="image de Amelia Pilou pour la description"/>
-    <p>Je m'appelle Luke DUSSART et j'ai 21 ans. Ce site a pour objectif de me présenter à vous, 
-      recruteurs, en tant que personne mais aussi en tant qu'étudiant du BTS SIO (Services informatiques aux Organisations).
-      <a class="btn btn-primary" href="coucou"
-         target="_blank" role="button">En savoir plus »</a>
-    </p>
+      <div class="container">
+        <div class="row cadreCV">
+          <div id="cv-entete" class="text-center">
+            <div id="cv-photo">
+              <img src="../images/AmeliaPilou.jpg" alt="Ma photo d'identité">
+            </div>
+            <div id="cv-intro">
+              <h1>Bonjour, je m'appelle Luke et voici mon CV</h1> 
+            </div>
+          </div>
+        </div>
+      </div> 
     </div> <!-- Emplacement pour le contenu principal de la page -->
     <footer>
       <div class="container">

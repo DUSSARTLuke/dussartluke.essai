@@ -7,6 +7,8 @@ and open the template in the editor.
     Created on : 14 sept. 2020, 11:35:54
     Author     : dussart.luke
 */
+body { padding-top: 50px; }
+
  img {
     float: left;
     width : 100px;  
