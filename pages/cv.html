@@ -13,7 +13,6 @@ and open the template in the editor.
     <meta name="description" content="Portfolio de DUSSART Luke - BTS SIO SLAM">
     <meta name="author" content="DUSSART Luke">
     <link rel="icon" href="../favicon.ico"> 
-    <link rel="stylesheet" href="../css/index.css" type="text/css"/>
     <link href="../css/cv.css" rel="stylesheet" type="text/css"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -127,7 +126,7 @@ and open the template in the editor.
         <div class="row cadreCV">
           <div id="cv-entete" class="text-center">
             <div id="cv-photo">
-              <img src="../images/AmeliaPilou.jpg" alt="Ma photo d'identité">
+              <img src="../images/photoidentite.jpg" alt="ma photo d'identité"/>
             </div>
             <div id="cv-intro">
               <h1>Bonjour, je m'appelle <span>Luke</span> et voici mon CV</h1> 
@@ -289,17 +288,23 @@ and open the template in the editor.
             </div> 
             <div id="competences" class="rubrique clearfix">
               <h2><span class="fa fa-wrench"></span> Compétences</h2>
-              <div class="container">
-                <div class="libelle">Intégration web</div>
-                <div class="classement classement5"></div>
+              <div class="libelle"> Intégration web</div>
+              <div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:75%"> 75%</div>
+                </div>
               </div>
-              <div class="container">
-                <div class="libelle">Dév. web</div>
-                <div class="classement classement4"></div>
+              <div class="libelle"> Dév. web</div>
+              <div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:60%"> 60%</div>
+                </div>
               </div>
-              <div class="container">
-                <div class="libelle">Administration</div>
-                <div class="classement classement3"></div>
+              <div class="libelle"> Administration</div>
+              <div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:20%"> 20%</div>
+                </div>
               </div>
             </div>
             <div id="passions" class="rubrique clearfix">
